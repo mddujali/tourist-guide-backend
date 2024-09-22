@@ -1,0 +1,58 @@
+# Packages
+/node_modules
+/bower_components
+/vendor
+
+# Unwanted files and directories
+/storage/*.key
+/public/build
+/public/hot
+/public/storage
+/public/vendor
+/public/css
+/public/js
+/public/images
+/public/fonts
+/public/mix-manifest.json
+/storage/api-docs
+/storage/logs/horizon.log
+/storage/logs/worker.log
+/docker/mysql/*
+.php_cs*
+.phpunit.*
+/.phpunit.cache
+.phpunit.result.cache
+.phpstorm.meta.php
+auth.json
+
+# IDEs
+/.fleet
+/.idea
+/.vagrant
+/.vscode
+/.editorconfig
+/.docker
+/config/.idea
+docker-compose.yml
+docker-compose.override.yml
+_ide_helper.php
+_ide_helper_models.php
+
+# Configurations
+Homestead.json
+Homestead.yaml
+
+# Logs
+npm-debug.log
+yarn-error.log
+xdebug.log
+
+# Environment
+.env
+.env.backup
+.env.testing
+.env.production
+
+# Lock files
+composer.lock
+package-lock.json
