@@ -13,3 +13,12 @@
     - `composer install`
     - `npm install`
 - Copy `.env.example` to `.env`
+- Copy `.env.testing.example` to `.env.testing`
+- Copy `docker-compose.yml.example` to `docker-compose.yml`
+- Add `alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'` to `.bashrc` or `.zshrc`
+- Run `sail build` to build the Docker containers
+- Run `sail up` to start the Docker containers
+- Run `sail up -d` to start the Docker containers in detached mode
+- Run `sail artisan key:generate` to create application key
+- Run `sail artisan key:generate --env=testing` to create application key for testing
+- Run `sail artisan migrate` to execute outstanding migrations
