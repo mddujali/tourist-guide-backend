@@ -22,3 +22,4 @@
 - Run `sail artisan key:generate` to create application key
 - Run `sail artisan key:generate --env=testing` to create application key for testing
 - Run `sail artisan migrate` to execute outstanding migrations
+- Run `sail artisan pint --repair` to fix any files with code style errors (PSR-12)
